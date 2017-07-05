@@ -35,7 +35,7 @@ def step_impl(context):
 			context.browser.find_element_by_name("multilingual_data:en").click()
 			time.sleep(2)
 			context.browser.find_element_by_css_selector('input[type="file"]').clear()
-			context.browser.find_element_by_css_selector('input[type="file"]').send_keys("/Users/ganesh/Desktop/TEST/AUTOMATION/TEST_IMAGES/"+image[1])
+			context.browser.find_element_by_css_selector('input[type="file"]').send_keys("/Users/ganesh/Desktop/TEST/autocreate/TEST_IMAGES"+image[1])
 			context.browser.find_element_by_name("action").click()
 			time.sleep(5)
 
